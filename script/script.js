@@ -1,0 +1,3 @@
+$('.dropdown').dropdown();
+
+$('.checkbox').checkbox();

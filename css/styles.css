@@ -1,0 +1,32 @@
+
+body {
+	background: #B24592;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F15F79, #B24592);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F15F79, #B24592);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content {
+	background-color: white;
+	border-radius: 15px;
+	font-family: 'Montserrat';
+	padding: 20px 40px;
+	margin: 20px auto;
+	width: 40%;
+}
+
+#title {
+	text-align: center;
+}
+
+#description {
+	text-align: center;
+}
+
+.required-field {
+	color: red;
+}
+
+.dropdown{
+}

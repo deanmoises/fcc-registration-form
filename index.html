@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>FCC Sample Form</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,900" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<div>
+					<h1 id="title">Registration</h1>
+					<hr>
+				</div>
+				<div>
+					<p id="description">Please fill out the necessary fields marked with red asterisk.</p>
+				</div>
+				<br>
+				<div>
+					<form class="ui form">
+						<div class="two fields">
+							<div class="field">
+					      <label>First name<span class="required-field">*</span></label>
+					      <input type="text" placeholder="First Name" required>
+					    </div>
+							<div class="field">
+					      <label>Last name<span class="required-field">*</span></label>
+					      <input type="text" placeholder="Last Name" required>
+	    				</div>
+						</div>
+
+						<div class="two fields">
+							<div class="field">
+					      <label>Email Address<span class="required-field">*</span></label>
+					      <input type="email" placeholder="Email Address" required>
+					    </div>
+							<div class="field">
+					      <label>Birth Date<span class="required-field">*</span></label>
+					      <input type="date" required>
+	    				</div>
+						</div>
+
+						<div class="field">
+							<label>Username<span class="required-field">*</span></label>
+							<input type="text" placeholder="Username" min="6" max="25" required>
+						</div>
+						<div class="field">
+							<label>Password<span class="required-field">*</span></label>
+							<input type="password" placeholder="Password" required>
+						</div>
+						<div class="field">
+							<label>Retype Password</label>
+							<input type="password" placeholder="Retype Password" required>
+						</div>
+
+						<div class="field">
+				      <label>Gender</label>
+				      <div class="ui selection dropdown">
+			          <input type="hidden" name="gender">
+			          <i class="dropdown icon"></i>
+			          <div class="default text">Gender</div>
+			          <div class="menu">
+			              <!-- <div class="item" data-value="0">Gender</div> -->
+			              <div class="item" data-value="1">Male</div>
+			              <div class="item" data-value="2">Female</div>
+			              <div class="item" data-value="3">Others</div>
+			          </div>
+				      </div>
+				  	</div>
+
+						<div class="field">
+				      <label>Profession</label>
+				      <div class="ui selection dropdown">
+			          <input type="hidden" name="gender">
+			          <i class="dropdown icon"></i>
+			          <div class="default text">Profession</div>
+			          <div class="menu">
+			              <div class="item" data-value="1">Self-Taught</div>
+			              <div class="item" data-value="2">Student</div>
+			              <div class="item" data-value="3">Undergraduate</div>
+			              <div class="item" data-value="4">Graduate</div>
+			              <div class="item" data-value="5">PhD Doctorate</div>
+			          </div>
+				      </div>
+				  	</div>
+
+						<div class="field">
+							<div class="ui checkbox">
+								<input type="checkbox" tabindex="0" class="hidden">
+								<label>I accept to the Terms of Service</label>
+							</div>
+						</div>
+
+						<button class="large ui green button fluid" type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+		<script src="script/script.js"></script>
+	</body>
+</html>
